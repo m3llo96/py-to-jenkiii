@@ -1,0 +1,6 @@
+node{
+    stage("1"){
+        git branch: 'main', url: 'https://github.com/m3llo96/py-to-jenkiii.git'
+        bat "dir"
+    }
+}
